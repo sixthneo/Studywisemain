@@ -49,7 +49,7 @@ export function CTASection() {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="mb-4 text-4xl md:text-5xl" style={{ color: '#0B1220' }}>
+            <h2 className="mb-4 text-4xl md:text-5xl" style={{ color: '#35979C' }}>
               Ready to Begin?
             </h2>
             <p className="text-gray-600 text-lg">
@@ -69,8 +69,8 @@ export function CTASection() {
             </Button>
             <Button 
               variant="outline"
-              className="rounded-xl hover:shadow-xl transition-all text-lg px-8 py-6"
-              style={{ borderColor: '#F59E0B', color: '#F59E0B' }}
+              className="rounded-xl hover:shadow-xl transition-all text-lg px-8 py-6 hover:bg-[#FFF500] hover:border-[#FFF500]"
+              style={{ borderColor: '#35979C', color: '#35979C' }}
             >
               Book Free Consultation
             </Button>
@@ -78,16 +78,16 @@ export function CTASection() {
 
           {/* Consultation Form */}
           <div className="bg-[#F8FAFC] p-8 md:p-12 rounded-2xl shadow-xl">
-            <h3 className="mb-6 text-center" style={{ color: '#0B1220' }}>
+            <h3 className="mb-6 text-center" style={{ color: '#35979C' }}>
               Schedule Your Free Consultation
             </h3>
             
             {isSubmitted ? (
               <div className="text-center py-12">
-                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full mb-4" style={{ backgroundColor: '#25D366' }}>
+                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full mb-4" style={{ backgroundColor: '#35979C' }}>
                   <Send className="h-8 w-8 text-white" />
                 </div>
-                <p className="text-lg" style={{ color: '#0B1220' }}>Thanks! Our mentor will reach out shortly.</p>
+                <p className="text-lg" style={{ color: '#35979C' }}>Thanks! Our mentor will reach out shortly.</p>
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-6">
@@ -170,7 +170,7 @@ export function CTASection() {
                 <Button 
                   type="submit" 
                   className="w-full rounded-xl hover:shadow-xl transition-all text-lg py-6"
-                  style={{ backgroundColor: '#F59E0B' }}
+                  style={{ backgroundColor: '#35979C', color: 'white' }}
                 >
                   <Send className="mr-2 h-5 w-5" />
                   Submit Request

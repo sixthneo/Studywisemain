@@ -38,7 +38,7 @@ export function ProgramsSection() {
     <section id="programs" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="mb-4 text-4xl md:text-5xl" style={{ color: '#0B1220' }}>
+          <h2 className="mb-4 text-4xl md:text-5xl" style={{ color: '#35979C' }}>
             Programs Offered
           </h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
@@ -52,13 +52,13 @@ export function ProgramsSection() {
             return (
               <Card 
                 key={index} 
-                className="hover:shadow-xl transition-all duration-300 border-2 hover:border-[#F59E0B] rounded-xl"
+                className="hover:shadow-xl transition-all duration-300 border-2 hover:border-[#FFF500] rounded-xl"
               >
                 <CardHeader>
-                  <div className="w-14 h-14 rounded-xl mb-4 flex items-center justify-center text-2xl" style={{ backgroundColor: '#F8FAFC' }}>
+                  <div className="w-14 h-14 rounded-xl mb-4 flex items-center justify-center text-2xl" style={{ backgroundColor: '#FFF500' }}>
                     {program.emoji}
                   </div>
-                  <CardTitle className="mb-2" style={{ color: '#0B1220' }}>
+                  <CardTitle className="mb-2" style={{ color: '#35979C' }}>
                     {program.title}
                   </CardTitle>
                   <CardDescription className="text-gray-600 leading-relaxed">
@@ -69,8 +69,8 @@ export function ProgramsSection() {
                   <Button 
                     onClick={() => window.open('https://wa.me/919599505943', '_blank')}
                     variant="outline" 
-                    className="w-full rounded-xl hover:bg-[#F59E0B] hover:text-white hover:border-[#F59E0B] transition-all"
-                    style={{ borderColor: '#F59E0B', color: '#F59E0B' }}
+                    className="w-full rounded-xl hover:bg-[#35979C] hover:text-white hover:border-[#35979C] transition-all"
+                    style={{ borderColor: '#35979C', color: '#35979C' }}
                   >
                     {program.cta}
                   </Button>

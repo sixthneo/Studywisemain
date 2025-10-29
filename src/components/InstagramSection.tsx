@@ -16,7 +16,7 @@ export function InstagramSection() {
     <section id="instagram" className="py-20 bg-gradient-to-b from-[#F8FAFC] to-[#E2E8F0]">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="mb-4 text-4xl md:text-5xl" style={{ color: '#0B1220' }}>
+          <h2 className="mb-4 text-4xl md:text-5xl" style={{ color: '#35979C' }}>
             Inside the StudyWise Classroom
           </h2>
           <p className="text-gray-600 text-lg mb-6">
@@ -27,7 +27,7 @@ export function InstagramSection() {
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl hover:shadow-lg transition-all"
-            style={{ backgroundColor: '#F59E0B', color: 'white' }}
+            style={{ backgroundColor: '#35979C', color: 'white' }}
           >
             <Instagram className="h-5 w-5" />
             Follow @studywise_official

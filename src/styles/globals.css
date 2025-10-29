@@ -3,8 +3,8 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --navy: #0B1220;
-  --gold: #F59E0B;
+  --brand-teal: #35979C;
+  --brand-yellow: #FFF500;
   --bg-light: #F8FAFC;
   --whatsapp: #25D366;
   --font-size: 16px;

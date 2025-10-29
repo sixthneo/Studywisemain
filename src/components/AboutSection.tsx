@@ -25,7 +25,7 @@ export function AboutSection() {
 
           {/* Content */}
           <div className="order-1 md:order-2">
-            <h2 className="mb-6 text-4xl md:text-5xl" style={{ color: '#0B1220' }}>
+            <h2 className="mb-6 text-4xl md:text-5xl" style={{ color: '#35979C' }}>
               Learn Smarter. Score Higher.
             </h2>
             <p className="mb-8 text-gray-700 text-lg leading-relaxed">
@@ -39,10 +39,10 @@ export function AboutSection() {
                 const Icon = stat.icon;
                 return (
                   <div key={index} className="text-center">
-                    <div className="inline-flex items-center justify-center w-12 h-12 rounded-full mb-3" style={{ backgroundColor: '#F59E0B' }}>
-                      <Icon className="h-6 w-6 text-white" />
+                    <div className="inline-flex items-center justify-center w-12 h-12 rounded-full mb-3" style={{ backgroundColor: '#FFF500' }}>
+                      <Icon className="h-6 w-6" style={{ color: '#35979C' }} />
                     </div>
-                    <div className="mb-1" style={{ color: '#0B1220' }}>{stat.value}</div>
+                    <div className="mb-1" style={{ color: '#35979C' }}>{stat.value}</div>
                     <div className="text-gray-600 text-sm">{stat.label}</div>
                   </div>
                 );
