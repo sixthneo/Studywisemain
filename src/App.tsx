@@ -3,7 +3,7 @@ import { HeroSection } from './components/HeroSection';
 import { AboutSection } from './components/AboutSection';
 import { ProgramsSection } from './components/ProgramsSection';
 import { WhyChooseSection } from './components/WhyChooseSection';
-import { InstagramSection } from './components/InstagramSection';
+// import { InstagramSection } from './components/InstagramSection';
 import { CTASection } from './components/CTASection';
 import { Footer } from './components/Footer';
 import { WhatsAppButton } from './components/WhatsAppButton';
@@ -24,7 +24,7 @@ export default function App() {
         <AboutSection />
         <ProgramsSection />
         <WhyChooseSection />
-        <InstagramSection />
+        {/* <InstagramSection /> */}
         <CTASection />
       </main>
       

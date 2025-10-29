@@ -1,4 +1,5 @@
 import { Mail, Phone, Instagram, Linkedin, Youtube } from 'lucide-react';
+import { Logo } from './Logo';
 
 export function Footer() {
   return (
@@ -7,11 +8,8 @@ export function Footer() {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 rounded-full flex items-center justify-center" style={{ backgroundColor: '#FFF500' }}>
-                <span style={{ color: '#35979C' }}>SW</span>
-              </div>
-              <span className="font-['Playfair_Display'] text-2xl">StudyWise</span>
+            <div className="mb-4" style={{ filter: 'brightness(0) invert(1)' }}>
+              <Logo height={35} />
             </div>
             <p className="text-white/90 leading-relaxed">
               Personalized online tuitions for international curriculum students. IB, IGCSE, A-Levels & MYP excellence.
