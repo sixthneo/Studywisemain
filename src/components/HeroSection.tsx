@@ -1,6 +1,6 @@
 import { MessageCircle } from 'lucide-react';
 import { Button } from './ui/button';
-import { ImageWithFallback } from './figma/ImageWithFallback';
+import heroVideo from '../assets/Student_Studying_Late_Evening_Macro_Video.mp4';
 
 export function HeroSection() {
   const scrollToContact = () => {
@@ -14,11 +14,16 @@ export function HeroSection() {
     <section id="home" className="relative min-h-[90vh] flex items-center overflow-hidden">
       {/* Background with gradient overlay */}
       <div className="absolute inset-0 z-0">
-        <ImageWithFallback
-          src="https://images.unsplash.com/photo-1759296844873-e0c694c24284?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBzdHVkeSUyMHdvcmtzcGFjZSUyMGJyaWdodHxlbnwxfHx8fDE3NjE3MDQxMjJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
-          alt="Modern study workspace"
+        <video
           className="w-full h-full object-cover"
-        />
+          autoPlay
+          loop
+          muted
+          playsInline
+          aria-hidden="true"
+        >
+          <source src={heroVideo} type="video/mp4" />
+        </video>
         <div 
           className="absolute inset-0" 
           style={{ 
